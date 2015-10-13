@@ -78,5 +78,5 @@ class Graph:
             self.plot_on_graph(x, y, 3)
             x += self.step
 
-my_graph = Graph(vec3.Vec3(0,0,0), -50,50,-50,50, mc)
+my_graph = Graph(vec3.Vec3(0,0,0), -20,20,-20,20, mc)
 my_graph.prompt_graph_mc_shell()
